@@ -1,0 +1,196 @@
+.container {
+  width: 100%;
+  /* position: absolute; */
+}
+.bg {
+  width: 100%;
+  display: block;
+  /* position: relative; */
+}
+
+.text {
+  position: absolute;
+  align-items: center;
+  top: 30%;
+  left: 5%;
+}
+
+.headline {
+  width: 1008px;
+  height: 45vh;
+  font-family: "Rubik Bold";
+  font-size: 9.63vw;
+  line-height: 23vh;
+  display: flex;
+  color: #ffffff;
+}
+
+.description {
+  width: 590px;
+  height: 54px;
+  font-family: "Rubik Regular";
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.text_part {
+  margin-top: 70px;
+  align-items: center;
+  color: #000000;
+}
+
+.text_part_headline {
+  width: 416px;
+  height: 24px;
+  font-family: "Rubik Bold";
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.text_part_description {
+  width: 390px;
+  margin-top: 30px;
+  height: 42px;
+  font-family: "Rubik Regular";
+  font-size: 20px;
+  line-height: 21px;
+}
+
+.maskgroup {
+  position: absolute;
+  right: 0px;
+  top: 140px;
+}
+
+.markgroup_image {
+  width: 56vw;
+}
+
+@media only screen and (max-width: 479px) {
+  .maskgroup {
+    top: 90px;
+  }
+  .markgroup_image {
+    width: 40vw;
+  }
+  .text {
+    top: 90px;
+    left: 5%;
+  }
+  .headline {
+    width: 250px;
+    font-size: 9vw;
+    height: 8vh;
+    line-height: 4vh;
+  }
+  .description {
+    width: 300px;
+    font-size: 3vw;
+    line-height: 10px;
+    height: 23px;
+  }
+
+  .text_part {
+    margin-top: 0px;
+  }
+
+  .text_part_headline {
+    width: 216px;
+    height: 22px;
+    font-size: 2vh;
+    line-height: 24px;
+  }
+
+  .text_part_description {
+    width: 190px;
+    height: 12px;
+    font-size: 1.5vh;
+    line-height: 10px;
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  .maskgroup {
+    top: 90px;
+  }
+  .markgroup_image {
+    width: 53vw;
+  }
+  .text {
+    top: 120px;
+    left: 5%;
+  }
+  .headline {
+    width: 250px;
+    font-size: 9vw;
+    height: 35vh;
+    line-height: 15vh;
+  }
+  .description {
+    width: 500px;
+    font-size: 2.5vw;
+    line-height: 20px;
+    height: 30px;
+  }
+
+  .text_part {
+    margin-top: 40px;
+  }
+
+  .text_part_headline {
+    width: 500px;
+    height: 30px;
+    font-size: 6vh;
+    line-height: 15px;
+  }
+
+  .text_part_description {
+    width: 350px;
+    height: 12px;
+    font-size: 4.5vh;
+    line-height: 20px;
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .maskgroup {
+    top: 95px;
+  }
+  .markgroup_image {
+    width: 54vw;
+  }
+  .text {
+    top: 120px;
+    left: 5%;
+  }
+  .headline {
+    width: 250px;
+    font-size: 9vw;
+    height: 20vh;
+    line-height: 15vh;
+  }
+  .description {
+    width: 450px;
+    font-size: 3vw;
+    line-height: 25px;
+    height: 60px;
+  }
+
+  .text_part_headline {
+    width: 300px;
+    height: 40px;
+    font-size: 2.3vh;
+    line-height: 24px;
+  }
+
+  .text_part_description {
+    width: 400px;
+    height: 12px;
+    font-size: 1.7vh;
+    line-height: 20px;
+    margin-top: 0px;
+  }
+}

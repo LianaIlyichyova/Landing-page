@@ -1,0 +1,125 @@
+.container {
+  position: relative;
+  padding-top: 20vw;
+  width: 85%;
+  margin-left: 10.5%;
+  text-align: center;
+}
+
+.ginger,
+.batterie,
+.virus {
+  display: inline-grid;
+  padding-right: 8%;
+  font-family: "Rubik Regular";
+}
+
+.white_text {
+  color: #ffffff;
+}
+
+.yellow_text {
+  color: #fcb500;
+}
+
+.ginger_text,
+.virus_text {
+  margin-top: 5vw;
+}
+
+.batterie_text {
+  position: relative;
+  margin-top: 3.2vw;
+}
+
+.small_text {
+  font-size: 1vw;
+  line-height: 21px;
+}
+
+.headline_text {
+  font-size: 1.9vw;
+  line-height: 43px;
+}
+
+.middle_text {
+  font-size: 1.5vw;
+  line-height: 30px;
+}
+
+@media only screen and (max-width: 479px) {
+  .batterie_image {
+    width: 100%;
+  }
+  .small_text {
+    font-size: 4vw;
+    line-height: 30px;
+  }
+  .headline_text {
+    font-size: 5.7vw;
+  }
+  .middle_text {
+    font-size: 4.8vw;
+  }
+  .ginger_text,
+  .virus_text {
+    margin-top: 0vw;
+  }
+  .ginger,
+  .batterie,
+  .virus {
+    margin-top: 3vh;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  .batterie_image {
+    width: 100%;
+  }
+  .small_text {
+    font-size: 4vw;
+    line-height: 45px;
+  }
+  .headline_text {
+    font-size: 5.7vw;
+  }
+  .middle_text {
+    font-size: 4.8vw;
+    line-height: 60px;
+  }
+  .ginger_text,
+  .virus_text {
+    margin-top: 0vw;
+  }
+  .ginger,
+  .batterie,
+  .virus {
+    margin-top: 3vh;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .batterie_image {
+    width: 100%;
+  }
+  .small_text {
+    font-size: 4vw;
+    line-height: 45px;
+  }
+  .headline_text {
+    font-size: 5.7vw;
+  }
+  .middle_text {
+    font-size: 4.8vw;
+    line-height: 60px;
+  }
+  .ginger_text,
+  .virus_text {
+    margin-top: 0vw;
+  }
+  .ginger,
+  .batterie,
+  .virus {
+    margin-top: 3vh;
+  }
+}

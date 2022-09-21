@@ -1,0 +1,50 @@
+.container {
+  width: 100%;
+  height: 926px;
+  left: 0px;
+  top: 0px;
+  background: #111111;
+}
+
+.headline {
+  width: 70%;
+  padding-top: 7%;
+  margin-left: 15%;
+  height: 115px;
+  font-family: "Rubik Bold";
+  font-size: 3.6vw;
+  text-align: center;
+}
+
+.white_text {
+  color: #ffffff;
+}
+
+.yellow_text {
+  color: #fcb500;
+}
+
+@media only screen and (max-width: 479px) {
+  .headline {
+    height: 55px;
+  }
+  .container {
+    height: 1000px;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+  .container {
+    height: 1230px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .headline {
+    height: 100px;
+    line-height: 50px;
+  }
+  .container {
+    height: 1400px;
+  }
+}

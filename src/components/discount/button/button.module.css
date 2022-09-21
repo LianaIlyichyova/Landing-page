@@ -1,0 +1,27 @@
+.button_container {
+  margin-left: calc(50% - 256px / 2 - 8px);
+  bottom: 0px;
+  padding-bottom: 2vh;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.button {
+  width: 256px;
+  height: 56px;
+  background: #fcb500;
+  border-radius: 7px;
+  left: 624px;
+  font-family: "Rubik Regular";
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+@media only screen and (max-width: 479px) {
+  .button_container {
+    margin-left: calc(50% - 256px / 2 - 1px);
+  }
+}
