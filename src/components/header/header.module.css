@@ -118,6 +118,9 @@
     top: 0px;
     font-size: 10px;
   }
+  .header_text_container {
+    font-size: 10px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -131,9 +134,12 @@
   .header_busket_count {
     position: relative;
     margin: auto;
-    left: -10px;
+    left: -13px;
     padding: 3px 7px;
     top: 5px;
+    font-size: 12px;
+  }
+  .header_text_container {
     font-size: 12px;
   }
 }
